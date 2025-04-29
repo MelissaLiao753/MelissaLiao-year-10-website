@@ -1,1 +1,466 @@
+*{
+    text-decoration: none;
+}
 
+.homepagered { /*Homepage color*/
+
+    background-color: rgb(243, 165, 165);
+}
+
+
+.navbar-red {
+    background-color: rgba(190, 46, 46, 0.868);
+    padding-right:15px;
+    padding-left:15px;
+}
+
+.navdiv-red {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(190, 46, 46, 0.868);
+}
+
+.li-red {
+    list-style: none;
+    display: inline-block;
+    background-color: rgba(190, 46, 46, 0.868);
+}
+
+.li-red a{
+    color:rgb(248, 246, 211);
+    font-family: "Limelight", sans-serif;
+    font-size:20px;
+    margin-right:20px;
+    background-color: rgba(190, 46, 46, 0.868);
+}
+
+
+.red {
+    
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 800;
+    color: rgb(169, 57, 37);
+}
+
+.redheadline {
+    color: rgba(181, 29, 29, 0.868);
+    font-family: "Limelight", sans-serif;
+    font-size: 35px;
+    padding:2px;
+}
+
+
+.sciencebutton {
+    text-decoration: none;
+    border-width: 10px;
+    border-radius: 5px;
+    border-color: rgb(237, 172, 167);
+    border-style: double;
+    background-color: rgb(169, 66, 66);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.sciencebutton a {
+    background-color: rgb(169, 66, 66);
+    text-decoration: none;
+    color: rgb(248, 246, 211);
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 800;
+}
+
+#homepage1image {
+    height: 200px;
+    width: 200px;
+    float: right;
+    padding: 15px;
+    align-items: center;
+}
+
+.figred {
+    position: absolute;
+    right:15px;
+    top:400px;
+    font-size: 10px;
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 600;
+    color: rgb(169, 57, 37);
+}
+
+.a-red {
+    font-size: 10px;
+    text-decoration: underline;
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 600;
+    color: rgb(169, 57, 37);
+}
+
+.textboxhome {
+    background-color: rgb(245, 235, 215);
+    height: 300px;
+    width:1000px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.textboxhome p{
+    background-color: rgb(245, 235, 215);
+
+}
+
+
+/*SCIENCE PAGE*/
+
+.sciencepageorange {
+    background-color: rgb(255, 187, 119);
+}
+
+.navbarorange {
+    background-color: rgba(220, 83, 33, 0.868);
+    padding-right:15px;
+    padding-left:15px;
+}
+
+.navbarorange ul{
+    background-color: rgba(220, 83, 33, 0.868);
+}
+
+.navdivorange {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(220, 83, 33, 0.868);
+}
+
+.navbarli-orange {
+    list-style: none;
+    display: inline-block;
+    background-color: rgba(220, 83, 33, 0.868);
+}
+
+.navbarli-orange a {
+    color:rgb(248, 246, 211);
+    font-family: "Limelight", sans-serif;
+    font-size:20px;
+    margin-right:20px;
+    background-color: rgba(220, 83, 33, 0.868);
+}
+
+#h1-orange {
+    color: rgba(184, 58, 12, 0.868);
+    font-family: "Limelight", sans-serif;
+    font-size: 35px;
+    padding:2px;
+}
+
+.p-orange {
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 800;
+    color: rgba(220, 83, 33, 0.868);
+}
+
+.fundamentalsbutton {
+    text-decoration: none;
+    border-width: 10px;
+    border-radius: 5px;
+    border-color: rgb(255, 206, 137);
+    border-style: double;
+    background-color: rgba(220, 83, 33, 0.868);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.fundamentalsbutton a {
+    background-color: rgba(220, 83, 33, 0.868);
+    text-decoration: none;
+    color: rgb(248, 246, 211);
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 800;
+}
+
+.li-orange {
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 800;
+    color: rgba(148, 45, 8, 0.868);
+}
+
+.textboxorange {
+    background-color: rgb(245, 235, 215);
+    display: flex;
+    flex-wrap: wrap;
+    width:700px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.textboxorange p{
+    background-color: rgb(245, 235, 215);
+    display: inline-block;
+
+}
+
+
+.a-orange {
+    text-decoration: underline;
+    font-size: 10px;
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 800;
+    color: rgba(148, 45, 8, 0.868);
+}
+
+.scienceimg1 {
+    height: 200px;
+    width: 250px;
+    float: right;
+    padding: 15px;
+    align-items: center;
+}
+
+.container {
+    display:flex;
+    flex-direction: column-reverse;
+    align-items:flex-end;
+    float:right;
+    
+}
+
+.scienceimgcolumn {
+    width: 400px;
+    height: 400px;
+}
+
+.figorange {
+    float:right;
+    position: absolute;
+    top:1000px;
+    right:15px;
+    font-size: 10px;
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 600;
+    color: rgb(169, 57, 37);
+}
+
+.sciencecap1 {
+    position: absolute;
+    top:1420px;
+    left:25px;
+    font-size: 10px;
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 600;
+    color: rgb(169, 57, 37);
+}
+
+/*Fundamentals page*/
+ 
+#fundamentalsyellow {
+    background-color: rgb(255, 218, 139);
+}
+
+#navbar-yellow {
+    background-color: rgba(238, 174, 54, 0.868);
+    padding-right:15px;
+    padding-left:15px;
+}
+
+#navdiv-yellow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(238, 174, 54, 0.868);
+}
+
+.li-yel {
+    list-style: none;
+    display: inline-block;
+    background-color: rgba(238, 174, 54, 0.868);
+}
+
+.li-yel a{
+    color:rgb(248, 246, 211);
+    font-family: "Limelight", sans-serif;
+    font-size:20px;
+    margin-right:20px;
+    background-color: rgba(238, 174, 54, 0.868);
+}
+
+#headlineyellow {
+    color: rgba(230, 160, 20, 0.868);
+    font-family: "Limelight", sans-serif;
+    font-size: 35px;
+    padding:2px;
+}
+
+.h2-yel {
+    color: rgba(230, 160, 20, 0.868);
+    font-family: "Limelight", sans-serif;
+    font-size: 28px;
+    padding:2px;
+}
+
+.p-yel {
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 800;
+    color: rgba(222, 162, 43, 0.913);
+}
+
+.textboxyellow {
+    background-color: rgb(245, 235, 215);
+    display: flex;
+    flex-wrap: wrap;
+    width:700px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.yellowimg {
+    height:300px;
+    width:300px;
+    top:10px;
+}
+
+.containeryellow {
+position: absolute;
+right:10px;
+top:150px;
+display:flex;
+flex-direction: column;
+align-items:flex-end;
+float:right;
+}
+
+#emotionbutton {
+    text-decoration: none;
+    border-width: 10px;
+    border-radius: 5px;
+    border-color: rgb(255, 235, 137);
+    border-style: double;
+    background-color: rgba(242, 189, 31, 0.868);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#emotionbutton a {
+    background-color: rgba(242, 189, 31, 0.868);
+    text-decoration: none;
+    color: rgb(248, 246, 211);
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 800;
+
+}
+
+.figyellow{
+    float:right;
+    position: absolute;
+    top:325px;
+    right:350px;
+    align-content: space-evenly;
+    font-size: 10px;
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 800;
+    color: rgb(124, 93, 0);
+}
+
+.a-yel {
+    font-size: 10px;
+    text-decoration: underline;
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 800;
+    color: rgb(124, 93, 0);
+}
+
+/*Emotions page */
+
+#bodygreen {
+    background-color: rgba(176, 227, 126, 0.886);
+}
+
+#navbar-green {
+    background-color: rgba(63, 133, 44, 0.575);
+    padding-right:15px;
+    padding-left:15px;
+}
+
+#navdiv-green {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(63, 133, 44, 0.575);
+}
+
+.li-green {
+    list-style: none;
+    display: inline-block;
+    background-color: rgba(63, 133, 44, 0.575);
+}
+
+.li-green a {
+    color:rgb(248, 246, 211);
+    font-family: "Limelight", sans-serif;
+    font-size:20px;
+    margin-right:20px;
+    background-color: rgba(63, 133, 44, 0.575);
+}
+
+.headinggreen {
+    color: rgba(39, 91, 7, 0.623);
+    font-family: "Limelight", sans-serif;
+    font-size: 35px;
+    padding:2px;
+    
+}
+
+.h2green {
+    color: rgba(60, 128, 28, 0.868);
+    font-family: "Limelight", sans-serif;
+    font-size: 28px;
+    padding:2px;
+}
+
+.p-green {
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 800;
+    color: rgba(83, 139, 57, 0.868);
+    display: inline-block;
+    justify-content: center;
+}
+
+.textboxgreen {
+    justify-content: center;
+    justify-self: center;
+    background-color: rgb(245, 235, 215);
+    display: flex;
+    flex-wrap: wrap;
+    width:1200px;
+    border-radius: 5px;
+}
+
+#containergreen {
+display:flex;
+flex-direction: row;
+}
+
+.imgrowgreen {
+    width: 200px;
+    height: 200px;
+    bottom: auto;
+}
+
+.a-green {
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 800;
+    color: rgba(35, 75, 17, 0.705);
+    text-decoration: underline;
+}
+
+#figgreen {
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 800;
+    color: rgba(63, 122, 36, 0.868);
+    display: flex;
+    justify-content: flex-start;
+
+}
