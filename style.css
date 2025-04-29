@@ -12,6 +12,8 @@
     background-color: rgba(190, 46, 46, 0.868);
     padding-right:15px;
     padding-left:15px;
+    position: sticky;
+    top:0;
 }
 
 .navdiv-red {
@@ -35,6 +37,11 @@
     background-color: rgba(190, 46, 46, 0.868);
 }
 
+.homepageimgcap {
+    display: flex;
+    justify-content: flex-end;
+
+}
 
 .red {
     
@@ -69,24 +76,30 @@
     color: rgb(248, 246, 211);
     font-family: "Noto Sans Mono", monospace;
     font-weight: 800;
+    position: relative;
+    bottom: 1px;
 }
 
 #homepage1image {
-    height: 200px;
-    width: 200px;
+    min-height: 100px;
+    max-height: 200px;
+    min-width: 100px;
+    max-width: 200px;
     float: right;
     padding: 15px;
     align-items: center;
+
 }
 
 .figred {
-    position: absolute;
-    right:15px;
-    top:400px;
     font-size: 10px;
     font-family: "Noto Sans Mono", monospace;
     font-weight: 600;
     color: rgb(169, 57, 37);
+    display: flex;
+    flex-wrap: wrap;
+    
+    
 }
 
 .a-red {
@@ -99,10 +112,10 @@
 
 .textboxhome {
     background-color: rgb(245, 235, 215);
-    height: 300px;
-    width:1000px;
     padding: 10px;
     border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .textboxhome p{
@@ -121,6 +134,8 @@
     background-color: rgba(220, 83, 33, 0.868);
     padding-right:15px;
     padding-left:15px;
+    position: sticky;
+    top:0;
 }
 
 .navbarorange ul{
@@ -191,14 +206,13 @@
     background-color: rgb(245, 235, 215);
     display: flex;
     flex-wrap: wrap;
-    width:700px;
+    min-width: 300px;
     padding: 10px;
     border-radius: 5px;
 }
 
 .textboxorange p{
     background-color: rgb(245, 235, 215);
-    display: inline-block;
 
 }
 
@@ -217,6 +231,7 @@
     float: right;
     padding: 15px;
     align-items: center;
+    display: flex;
 }
 
 .container {
@@ -228,19 +243,21 @@
 }
 
 .scienceimgcolumn {
-    width: 400px;
-    height: 400px;
+    max-width: 400px;
+    max-height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    
 }
 
 .figorange {
     float:right;
-    position: absolute;
-    top:1000px;
-    right:15px;
+    justify-content: flex-end;
     font-size: 10px;
     font-family: "Noto Sans Mono", monospace;
     font-weight: 600;
     color: rgb(169, 57, 37);
+    display: flex;
 }
 
 .sciencecap1 {
@@ -263,6 +280,8 @@
     background-color: rgba(238, 174, 54, 0.868);
     padding-right:15px;
     padding-left:15px;
+    position: sticky;
+    top:0;
 }
 
 #navdiv-yellow {
@@ -310,19 +329,20 @@
     background-color: rgb(245, 235, 215);
     display: flex;
     flex-wrap: wrap;
-    width:700px;
+    max-width:700px;
     padding: 10px;
     border-radius: 5px;
+
 }
 
 .yellowimg {
-    height:300px;
-    width:300px;
-    top:10px;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 100px;
+    max-width:200px;
 }
 
 .containeryellow {
-position: absolute;
 right:10px;
 top:150px;
 display:flex;
@@ -362,6 +382,7 @@ float:right;
     font-family: "Noto Sans Mono", monospace;
     font-weight: 800;
     color: rgb(124, 93, 0);
+    display: flex;
 }
 
 .a-yel {
@@ -382,6 +403,8 @@ float:right;
     background-color: rgba(63, 133, 44, 0.575);
     padding-right:15px;
     padding-left:15px;
+    position: sticky;
+    top:0;
 }
 
 #navdiv-green {
