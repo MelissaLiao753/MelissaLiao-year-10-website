@@ -2,13 +2,13 @@
     text-decoration: none;
 }
 
-.homepagered { /*Homepage color*/
+#colortheory-red { /*Homepage color*/
 
     background-color: rgb(243, 165, 165);
 }
 
 
-.navbar-red {
+#navbar-red {
     background-color: rgba(190, 46, 46, 0.868);
     padding-right:15px;
     padding-left:15px;
@@ -16,7 +16,7 @@
     top:0;
 }
 
-.navdiv-red {
+#navdiv-red {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -37,20 +37,29 @@
     background-color: rgba(190, 46, 46, 0.868);
 }
 
-.homepageimgcap {
+#homepageimage1 {
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
+    float: right;
+    align-items: center;
+    padding:2px;
+    max-width: 200px;
+    max-height: 200px;
+    min-height: 100px;
+    min-width: 100px;
+    
 
 }
 
-.red {
+.p-red {
     
     font-family: "Noto Sans Mono", monospace;
     font-weight: 800;
     color: rgb(169, 57, 37);
 }
 
-.redheadline {
+#h1-red {
     color: rgba(181, 29, 29, 0.868);
     font-family: "Limelight", sans-serif;
     font-size: 35px;
@@ -58,7 +67,7 @@
 }
 
 
-.sciencebutton {
+#button-red {
     text-decoration: none;
     border-width: 10px;
     border-radius: 5px;
@@ -70,7 +79,7 @@
     align-items: flex-end;
 }
 
-.sciencebutton a {
+#button-red a {
     background-color: rgb(169, 66, 66);
     text-decoration: none;
     color: rgb(248, 246, 211);
@@ -80,24 +89,18 @@
     bottom: 1px;
 }
 
-#homepage1image {
-    min-height: 100px;
-    max-height: 200px;
-    min-width: 100px;
-    max-width: 200px;
-    float: right;
-    padding: 15px;
-    align-items: center;
 
-}
-
-.figred {
+#fig-red {
     font-size: 10px;
     font-family: "Noto Sans Mono", monospace;
     font-weight: 600;
     color: rgb(169, 57, 37);
     display: flex;
-    flex-wrap: wrap;
+    max-width: 250px;
+    position: relative;
+    left:1000px;
+    top:225px;
+    
     
     
 }
@@ -116,6 +119,7 @@
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
+    max-width: 950px;
 }
 
 .textboxhome p{
@@ -126,11 +130,11 @@
 
 /*SCIENCE PAGE*/
 
-.sciencepageorange {
+#science-orange {
     background-color: rgb(255, 187, 119);
 }
 
-.navbarorange {
+#navbar-orange {
     background-color: rgba(220, 83, 33, 0.868);
     padding-right:15px;
     padding-left:15px;
@@ -138,11 +142,11 @@
     top:0;
 }
 
-.navbarorange ul{
+#navbar-orange ul{
     background-color: rgba(220, 83, 33, 0.868);
 }
 
-.navdivorange {
+#navdiv-orange {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -202,16 +206,17 @@
     color: rgba(148, 45, 8, 0.868);
 }
 
-.textboxorange {
+.textbox-orange {
     background-color: rgb(245, 235, 215);
     display: flex;
     flex-wrap: wrap;
     min-width: 300px;
+    
     padding: 10px;
     border-radius: 5px;
 }
 
-.textboxorange p{
+.textbox-orange p{
     background-color: rgb(245, 235, 215);
 
 }
@@ -243,14 +248,14 @@
 }
 
 .scienceimgcolumn {
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 350px;
+    max-height: 350px;
     display: flex;
     justify-content: flex-end;
     
 }
 
-.figorange {
+.fig-orange {
     float:right;
     justify-content: flex-end;
     font-size: 10px;
@@ -258,17 +263,23 @@
     font-weight: 600;
     color: rgb(169, 57, 37);
     display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
 }
 
-.sciencecap1 {
-    position: absolute;
-    top:1420px;
-    left:25px;
+#fig-orange-bottom {
+    display: flex;
     font-size: 10px;
     font-family: "Noto Sans Mono", monospace;
     font-weight: 600;
     color: rgb(169, 57, 37);
+    align-self: flex-end;
+    
 }
+
 
 /*Fundamentals page*/
  
@@ -339,15 +350,12 @@
     display: flex;
     flex-wrap: wrap;
     min-width: 100px;
-    max-width:200px;
+    max-width:300px;
 }
 
 .containeryellow {
-right:10px;
-top:150px;
 display:flex;
 flex-direction: column;
-align-items:flex-end;
 float:right;
 }
 
@@ -373,17 +381,17 @@ float:right;
 }
 
 .figyellow{
-    float:right;
-    position: absolute;
-    top:325px;
-    right:350px;
-    align-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
     font-size: 10px;
     font-family: "Noto Sans Mono", monospace;
     font-weight: 800;
     color: rgb(124, 93, 0);
-    display: flex;
+    float:right;
+    
 }
+
 
 .a-yel {
     font-size: 10px;
@@ -477,13 +485,111 @@ flex-direction: row;
     font-weight: 800;
     color: rgba(35, 75, 17, 0.705);
     text-decoration: underline;
+
 }
 
-#figgreen {
+.figgreen {
     font-family: "Noto Sans Mono", monospace;
     font-weight: 800;
     color: rgba(63, 122, 36, 0.868);
-    display: flex;
-    justify-content: flex-start;
 
+}
+
+.figcontainergreen {
+    display:flex;
+    flex-direction: column;
+}
+/*Color interaction Page*/
+
+#bodyblue {
+    background-color: rgba(142, 181, 239, 0.886);
+}
+
+#navbar-blue {
+    background-color: rgba(27, 66, 111, 0.575);
+    padding-right:15px;
+    padding-left:15px;
+    position: sticky;
+    top:0;
+}
+
+#navdiv-blue {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(28, 80, 144, 0.575);
+}
+
+.li-blue {
+    list-style: none;
+    display: inline-block;
+    background-color: rgba(28, 80, 144, 0.575);
+}
+
+.li-blue a {
+    color:rgb(248, 246, 211);
+    font-family: "Limelight", sans-serif;
+    font-size:20px;
+    margin-right:20px;
+    background-color: rgba(28, 80, 144, 0.575);
+}
+
+.h1blue {
+    color: rgba(28, 63, 128, 0.868);
+    font-family: "Limelight", sans-serif;
+    font-size: 35px;
+    padding:2px;
+    
+}
+
+.h2-blue {
+    color: rgba(28, 63, 128, 0.868);
+    font-family: "Limelight", sans-serif;
+    font-size: 28px;
+    padding:2px;
+}
+
+.p-blue {
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 800;
+    color: rgba(18, 45, 117, 0.868);
+    display: inline-block;
+    justify-content: center;
+}
+
+.h3-blue {
+    color: rgba(28, 63, 128, 0.868);
+    font-family: "Limelight", sans-serif;
+    font-size: 23px;
+    padding:2px;
+}
+
+.p-blue {
+    font-family: "Noto Sans Mono", monospace;
+    font-weight: 800;
+    color: rgba(28, 63, 128, 0.868);
+    display: inline-block;
+    justify-content: center;
+}
+
+.textboxblue {
+    justify-content: center;
+    background-color: rgb(245, 235, 215);
+    display: flex;
+    flex-wrap: wrap;
+    width:1200px;
+    border-radius: 5px;
+
+}
+
+.img-blue {
+    width: 300px;
+    height: 300px;
+}
+
+.containerblue {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content:flex-end;
+    align-items:center;
 }
