@@ -237,6 +237,8 @@
     padding: 15px;
     align-items: center;
     display: flex;
+    border-radius: 20px;
+
 }
 
 .container {
@@ -252,6 +254,7 @@
     max-height: 350px;
     display: flex;
     justify-content: flex-end;
+    border-radius: 20px;
     
 }
 
@@ -351,6 +354,7 @@
     flex-wrap: wrap;
     min-width: 100px;
     max-width:300px;
+    border-radius: 20px;
 }
 
 .containeryellow {
@@ -465,7 +469,7 @@ float:right;
     background-color: rgb(245, 235, 215);
     display: flex;
     flex-wrap: wrap;
-    width:1200px;
+    max-width:1200px;
     border-radius: 5px;
 }
 
