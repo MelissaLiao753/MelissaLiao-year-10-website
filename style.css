@@ -593,3 +593,10 @@ flex-direction: row;
     justify-content:flex-end;
     align-items:center;
 }
+
+
+.captioncontainerblue  {
+    display:flex;
+    flex-direction: column-reverse;
+    float:left;
+}
