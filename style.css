@@ -441,7 +441,7 @@ float:right;
     font-family: "Limelight", sans-serif;
     font-size: 35px;
     padding:2px;
-    
+    text-align: center;
 }
 
 .h2green {
@@ -456,7 +456,7 @@ float:right;
     font-weight: 800;
     color: rgba(83, 139, 57, 0.868);
     display: inline-block;
-    justify-content: center;
+    text-align: center;
 }
 
 .textboxgreen {
@@ -498,6 +498,7 @@ flex-direction: row;
 .figcontainergreen {
     display:flex;
     flex-direction: column;
+    text-align: center;
 }
 /*Color interaction Page*/
 
@@ -547,6 +548,9 @@ flex-direction: row;
     font-family: "Limelight", sans-serif;
     font-size: 28px;
     padding:2px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .p-blue {
@@ -555,48 +559,57 @@ flex-direction: row;
     color: rgba(18, 45, 117, 0.868);
     display: inline-block;
     justify-content: center;
+    text-align: center;
 }
 
 .h3-blue {
     color: rgba(28, 63, 128, 0.868);
     font-family: "Limelight", sans-serif;
-    font-size: 23px;
+    font-size: 25px;
     padding:2px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
 
 .p-blue {
     font-family: "Noto Sans Mono", monospace;
     font-weight: 800;
     color: rgba(28, 63, 128, 0.868);
+    display: flex;
     display: inline-block;
     justify-content: center;
 }
 
 .textboxblue {
+    display: flex;
     justify-content: center;
     background-color: rgb(245, 235, 215);
-    display: flex;
     flex-wrap: wrap;
-    width:1200px;
+    max-width:1200px;
     border-radius: 5px;
+    
 
 }
 
 .img-blue {
-    width: 300px;
-    height: 300px;
+    max-width: 480px;
+    max-height: 480px;
 }
 
 .containerblue {
     display:flex;
     flex-direction: row-reverse;
-    justify-content:flex-end;
-    align-items:center;
+    float: center;
+    justify-content:center;
+    align-items:flex-end;
+    
 }
 
 
 .captioncontainerblue  {
     display:flex;
     flex-direction: column-reverse;
-    float:left;
+    float:center;
 }
